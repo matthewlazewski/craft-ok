@@ -7,7 +7,7 @@ import Header from './Header.js'
 class Home extends React.Component {
     render(){
         return(
-            <Container fluid  style={{ paddingLeft: 0, paddingRight: 0 }}>
+            <Container fluid className="home-container" style={{ paddingLeft: 0, paddingRight: 0 }}>
                 <div class="header">
                     <Header />
                 </div>
