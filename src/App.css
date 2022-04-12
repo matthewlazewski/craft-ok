@@ -2,18 +2,40 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.home-container {
+.home-page {
   background-image: url("/src/images/HomeBackground.png");
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height:1000px;
+  width: 100%;
 }
 
-.head {
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-nav {
+  background-color: rgba(234, 246, 246, 0.4) !important;
+}
+
+.display {
+  font-size: .8rem;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: rgba(234, 246, 246, 0.4) !important;
+}
+
+.header {
   background-color: rgba(234, 246, 246, 0.4) !important;
   width: 100%;
 }

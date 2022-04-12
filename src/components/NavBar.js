@@ -1,3 +1,4 @@
+import { height } from '@mui/system';
 import React, { Component } from 'react';
 import {Navbar, NavItem, NavDropdown, Nav, Container, MenuItem} from 'react-bootstrap'
 import Logo from '../images/LogoMain.png';
@@ -8,10 +9,10 @@ export default class NavBar extends React.Component {
         return (
            
 
-                <Navbar collapseOnSelect fixed="top" bg="light" expand="sm" className='navbar w-100 d-flex justify-content-around text-light'>
+                <Navbar collapseOnSelect fixed="top" bg="light" expand="sm" className='color-navbar w-100 d-flex justify-content-around text-light'>
                     <Container  style={{ paddingLeft: 0, paddingRight: 0 }}>
                         <div>
-                            <img src={Logo} />
+                            <img style={{height: "50px"}} src={Logo} />
                         </div>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id='responsive-navbar-nav'>
